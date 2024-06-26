@@ -8,6 +8,7 @@ An easy to use blogging and modern platform which allows users to create and adm
 - Customizable blogs, choose colors and images for a personal layout
 - Rate blog posts you read
 - Filter and search for blogs by interest and subject, makes it easy to find interesting blogs to read
+- Follow your favorite authors by subscribing to blogs
 ## Entities
 
 ### Blog
@@ -28,6 +29,7 @@ An easy to use blogging and modern platform which allows users to create and adm
 | --------- | -------- | ------------------------------------------ |
 | Id        | Guid     | Id for post                                |
 | Title     | string   | Post title                                 |
+| Content   | string   | Post content                               |
 | Url       | string   | Unique URL for post                        |
 | ImageUrl  | string   | ImageUrl                                   |
 | Published | DateTime | Original publishing date (DateTime.UtcNow) |
